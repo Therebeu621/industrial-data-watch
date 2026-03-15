@@ -1,0 +1,6 @@
+timestamp,equipment_id,equipment_type,anomaly_type,severity,description,measured_value,previous_value
+2026-01-05 09:15:00,LIL-CH-01,CHILLER,TEMPERATURE_OUT_OF_RANGE,high,Temperature outside expected operating range,29.5,18.0
+2026-01-05 12:00:00,LIL-CP-01,COMPRESSOR,HIGH_ENERGY_WHILE_STOPPED,high,Energy remained high while machine state was STOPPED,12.8,4.0
+2026-01-05 13:15:00,ARR-PK-01,PACKAGING_LINE,ENERGY_SPIKE,medium,Energy consumption increased sharply,29.8,11.5
+2026-01-05 15:30:00,LIL-CP-02,COMPRESSOR,PRESSURE_DROP_OR_SPIKE,medium,Pressure changed sharply between two consecutive readings,11.4,7.2
+2026-01-05 17:30:00,ARR-PM-01,PUMP,MISSING_TIMESLOT,low,Gap detected in the measurement timeline,30.0,15.0
